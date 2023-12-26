@@ -2,7 +2,7 @@
 
   .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: rgb(235, 180, 41);
   }
 
   .navbar-collapse {
@@ -12,13 +12,31 @@
   .navbar-brand > img{
     box-shadow: 3px 2px 4px 4px rgba(32,32,32,0.3);
   }
-  .container-fluid {
-    border-bottom: 4px solid goldenrod;
+  .navbar {
+    border-bottom: 4px solid rgb(73, 17, 133);
   }
 
-  .setup > img {
-    border-radius: 5em;
+    /* Hero Section */
+  section {
+    width: 100%;
+    background-image: url("/Ressourses/images/chip3d.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
   }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  section > div > img {
+    border-radius: 20px;
+  }
+  h1, h2 {
+    color:rgb(220, 235, 249)
+  }
+
+  
   
   /* Media Queris */
   @media screen and (max-width: 767px) {
