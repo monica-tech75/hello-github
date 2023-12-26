@@ -1,19 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8/>
+    <!--Metadatos-->
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width,initial scale=1.0"/>
-    <title>From Github with love</title>
+    <meta name="author" content="Monica Pardo"/>
+    <meta name="description" content="portafolio de desarrollo web de Monica Pardo"/>
+    <meta name="keywords" content="Html, CSS, Javascript, React"/>
+    <!--Titulo-->
+    <title>Monica Pardo | Web Development Front-End</title>
+    <link rel="icon" type="image/x-icon" href="./Ressourses/images/my_favicon.png"/>
+
+            <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+            <!--CSS-->
+    <link href="./CSS/styles.css" rel="stylesheet" type="text/css">
+
+    
+
+
   </head>
   <body>
-    <h1>Hello from github</h1>
-    <h2> This gonna be a <span>bootstrap</span> App!</h2>
-    <nav>
-      <ul>
-        <ol>My Projects</ol>
-        <ol>Courses</ol>
-        <ol>About me</ol>
-      </ul>
+    <!--Barra de navegacion-->
+    
+    <nav class="navbar navbar-expand-md navbar-light navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="./Ressourses/images/my_favicon.png" width="50" alt="logo de la pagina web">
+            <h1>Monica Pardo</h1>
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
     </nav>
+    <!-- Section Hero -->
+    <section>
+      <div class="setup">
+        <img src="./Ressourses/images/my-setup-b&w.jpg" alt="setup of Developer" width="200px">
+        <h1>Hi, I'm Monica Pardo</h1>
+        <h2>I'm a Web Developer and a big passionete of New Tecnologies</h2>
+      </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
