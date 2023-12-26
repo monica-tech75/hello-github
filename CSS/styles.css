@@ -1,8 +1,8 @@
   /*Barra de navegacion */
 
   .navbar {
-    padding: 2rem;
-    background-color: rgb(235, 180, 41);
+    padding: 0.5rem;
+    background-color: rgb(190, 207, 211);
   }
 
   .navbar-collapse {
@@ -11,30 +11,59 @@
   }
   .navbar-brand > img{
     box-shadow: 3px 2px 4px 4px rgba(32,32,32,0.3);
+    border-radius: 10%;
   }
   .navbar {
-    border-bottom: 4px solid rgb(73, 17, 133);
+    border-bottom: 4px solid rgb(23, 42, 72);
   }
 
     /* Hero Section */
   section {
-    width: 100%;
-    background-image: url("/Ressourses/images/chip3d.png");
-    background-repeat: no-repeat;
-    background-size: cover; 
-  }
-  .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
   }
-  section > div > img {
-    border-radius: 20px;
+  .hero {
+    min-height: 450px;
+    text-align: center;
+    background-image: url("/Ressourses/images/AnyConv.com__OIP.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    opacity: 0.9;   
   }
-  h1, h2 {
-    color:rgb(220, 235, 249)
+
+  .hero-principal {
+    padding: 3rem;
   }
+  .hero-imagen-desarrollador {
+    width: 200px;
+    height: 125px;
+    border-radius: 50%;
+    border: 4px solid rgb(185, 199, 222);
+    margin-left: 30px;
+    opacity: 0.85;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive, sans-serif;
+  }
+  .navbar-brand h2 {
+    color :rgb(89, 55, 111);
+    font-family: 'Carattere', cursiva, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    margin: 0.3em 1em;
+    text-decoration: underline;
+  }
+
+  h1, h3 {
+    color: rgb(224, 233, 239);
+  }
+ 
 
   
   
